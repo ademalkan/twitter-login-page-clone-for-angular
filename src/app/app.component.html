@@ -1,0 +1,34 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6 offset-md-3">
+      <form class="mt-4" #loginForm="ngForm">
+        <div class="text-center mb-4">
+          <img class="mb-5" src="https://seeklogo.com/images/T/twitter-logo-A84FE9258E-seeklogo.com.png" alt="logo"
+            width="36" height="36">
+          <h1 class="h4 mb-3 font-weight-bold">Twitter'a giriş yap
+          </h1>
+        </div>
+        <div class="form-label-group">
+          <input type="text" id="name" #name="ngModel" [(ngModel)]="model.name" name="name" class="form-control"
+            placeholder="Telefon, e-posta veya kullanıcı adı" required autofocus>
+          <label for="inputEmail">Telefon, e-posta veya kullanıcı adı</label>
+        </div>
+
+        <div class="form-label-group mb-4">
+          <input type="password" id="password" #password="ngModel" [(ngModel)]="model.password" name="password"
+            class="form-control" placeholder="Şifre" required>
+          <label for="inputPassword">Şifre</label>
+        </div>
+
+        <button [disabled]="loginForm.invalid" class="btn btn-lg btn-primary btn-block rounded-pill" type="submit">Giriş
+          yap</button>
+        <p class="mt-4 mb-3 text-muted text-center">
+          <a routerLink="login">Şifreni mi unuttun?</a>
+          ·
+          <a routerLink="login">Twitter'a kaydol</a>
+        </p>
+
+      </form>
+    </div>
+  </div>
+</div>
