@@ -1,3 +1,7 @@
+Image for app; https://i.imgyukle.com/2021/03/04/Nn9QxH.png
+
+
+<<<<<<< HEAD
 # TwitterLoginPage
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.2.
@@ -25,3 +29,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+=======
+# twitter-login-page-clone-for-angular
+
+Image for app;
+https://i.imgyukle.com/2021/03/04/Nn9QxH.png
+>>>>>>> e5c2348555e74f7d3e1d5166e2a6b3b1fdcf2664
